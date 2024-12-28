@@ -202,13 +202,6 @@ export default async function IndexPage({
             {newHandle ? `"${newHandle}"` : "your new handle"}. Finally, tap
             &quot;Verify DNS Record&quot;.
           </p>
-          <p className="mt-6 max-w-lg text-sm">
-            If you like this project, consider{" "}
-            <a href="https://github.com/sponsors/mozzius" className="underline">
-              sponsoring my work
-            </a>
-            .
-          </p>
         </Stage>
       </div>
     </main>
@@ -216,47 +209,9 @@ export default async function IndexPage({
 }
 
 const RESERVED = [
-  "Jungkook",
-  "JeonJungkook",
-  "Jeon",
-  "JK",
-  "JJK",
-  "Kim",
-  "KimTaehyung",
-  "V",
-  "Taehyung",
-  "Tae",
-  "Jin",
-  "Seokjin",
-  "KimSeokjin",
-  "RM",
-  "Namjoon",
-  "Nam",
-  "KimNamjoon",
-  "MinYoongi",
-  "Yoongi",
-  "Yoon",
-  "AgustD",
-  "MYG",
-  "Suga",
-  "PJM",
-  "Jimin",
-  "ParkJimin",
-  "Park",
-  "Abcdefghi__lmnopqrsvuxyz",
-  "JM",
-  "UarMyHope",
-  "Rkrive",
-  "THV",
-  "KTH",
-  "SBT",
-  "BANGPD",
-  "projeto",
-  "army",
-  "armys ",
+  "aux",
   "info",
   "projects",
   "Pic",
   "New",
-  "Babys",
 ].map((x) => x.toLowerCase())
